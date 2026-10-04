@@ -1,10 +1,10 @@
 
 
-const Child = ({username,password}) => {
+const Child = ({formData}) => {
   return (
-    <div className="">
-        <h1>{username}</h1>
-        <h3>{password}</h3>
+    <div className=" mt-3">
+        <h1>{formData.username}</h1>
+        <h3>{formData.password}</h3>
     </div>
   )
 }
